@@ -118,16 +118,11 @@
   word-spacing: 23px;
 }
 
-.cover__description-text:first-of-type {
+.cover__description-text {
   padding-left: 50px;
-  word-spacing: 20px;
-  display: inline;
-}
-
-.cover__description-text:last-of-type {
-  padding: 0 109px 0 23px;
-  display: inline;
+  padding-right: 78px;
   word-spacing: 18px;
+  display: inline;
 }
 
 .bet-button {
@@ -208,6 +203,10 @@
   text-underline-offset: 4px;
 }
 
+.card__title-film {
+  max-width: 254px;
+}
+
 .card__text {
   font-size: 20px;
   font-weight: 400;
@@ -215,6 +214,7 @@
 }
 
 .lots__look-more-link {
+  display: block;
   width: 192px;
   margin-top: 30px;
   margin-left: 40px;
